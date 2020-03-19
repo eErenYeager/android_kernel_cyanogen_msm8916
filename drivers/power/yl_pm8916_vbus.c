@@ -242,7 +242,7 @@ int get_yl_pm8916_vbus_status(void)
 }
 EXPORT_SYMBOL(get_yl_pm8916_vbus_status);
 
-#define BATT_MVOLT_DEFAULT      3800  /* 3800MV */
+#define BATT_MVOLT_DEFAULT      3850  /* 3800MV */
 int get_yl_pm8916_batt_mvol(void)
 {
 	int rc = 0;
