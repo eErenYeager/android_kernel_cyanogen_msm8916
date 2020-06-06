@@ -1139,7 +1139,7 @@ static int fan5405_get_prop_charge_full_design(struct fan5405_chip *chip)
 	union power_supply_propval ret = {0, };
 
 
-	ret.intval = 2500;
+	ret.intval = 4000;
 	return ret.intval;
 
 }
@@ -1149,7 +1149,7 @@ static int fan5405_get_prop_voltage_max_design(struct fan5405_chip *chip)
 	union power_supply_propval ret = {0, };
 
 
-	ret.intval = 4350000;
+	ret.intval = 4400000;
 
 	return ret.intval;
 }

@@ -399,10 +399,10 @@ static int lc709203_batt_get_property(struct power_supply *psy,
 			val->intval = lc709203_batt_capacity(chip);
 			break;
 		case POWER_SUPPLY_PROP_CHARGE_FULL_DESIGN:
-			val->intval = 2500;
+			val->intval = 4000;
 			break;
 		case POWER_SUPPLY_PROP_VOLTAGE_MAX_DESIGN:
-			val->intval = 4350000;
+			val->intval = 4400000;
 			break;
 		case POWER_SUPPLY_PROP_VOLTAGE_NOW:
 			val->intval = lc709203_batt_voltage(chip);
